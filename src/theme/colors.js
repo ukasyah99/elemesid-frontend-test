@@ -9,6 +9,10 @@ const colors = {
     500: "#E7462D",
     600: "#E7462D",
   },
+  dark: {
+    400: "##757575",
+    500: "#333333",
+  },
 }
 
 export default colors

@@ -13,6 +13,7 @@ export default function ResponsiveImage({
     >
       <Box className="responsive-image">
         <Image
+          alt=""
           src={src}
           className="image"
           layout="fill"

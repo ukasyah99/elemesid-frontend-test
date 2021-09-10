@@ -1,4 +1,5 @@
 import { ChakraProvider } from "@chakra-ui/react"
+import "@fontsource/rubik/400.css"
 import "@fontsource/rubik/500.css"
 import "src/styles/global.css"
 import theme from "src/theme"
