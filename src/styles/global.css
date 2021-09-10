@@ -1,0 +1,14 @@
+.responsive-image {
+  width: 100%;
+}
+
+.responsive-image > div {
+  position: unset !important;
+}
+
+.responsive-image .image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
