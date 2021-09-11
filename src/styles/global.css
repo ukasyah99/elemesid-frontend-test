@@ -1,5 +1,6 @@
 .responsive-image {
   width: 100%;
+  position: relative;
 }
 
 .responsive-image > div {
@@ -11,4 +12,22 @@
   width: 100% !important;
   position: relative !important;
   height: unset !important;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide:first-child, .swiper-slide:last-child {
+  width: 32px;
+}
+
+.swiper-slide {
+  width: 230px;
+}
+
+@media(min-width: 80em) {
+  .swiper-slide:first-child, .swiper-slide:last-child {
+    width: calc((100% - 71rem) / 2);
+  }
 }

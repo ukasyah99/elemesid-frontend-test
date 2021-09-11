@@ -1,6 +1,9 @@
 const Button = {
   baseStyle: {
     fontWeight: "medium",
+    _focus: {
+      shadow: "none",
+    },
   },
   variants: {
     solid: {

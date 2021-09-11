@@ -1,8 +1,9 @@
 import { ChakraProvider } from "@chakra-ui/react"
 import "@fontsource/rubik/400.css"
 import "@fontsource/rubik/500.css"
-import "src/styles/global.css"
 import theme from "src/theme"
+import "swiper/css"
+import "src/styles/global.css"
 
 function MyApp({ Component, pageProps }) {
   return (
