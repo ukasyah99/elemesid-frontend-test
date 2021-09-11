@@ -1,6 +1,8 @@
 import { Box } from "@chakra-ui/react"
 import Head from "next/head"
 import BrowseCategories from "src/components/browse-categories"
+import BrowseTrendings from "src/components/browse-trendings"
+import Footer from "src/components/footer"
 import Header from "src/components/header"
 import Hero from "src/components/hero"
 
@@ -26,6 +28,8 @@ export default function Home() {
         />
       </Box>
       <BrowseCategories />
+      <BrowseTrendings />
+      <Footer />
       <Box h="72" />
     </div>
   )

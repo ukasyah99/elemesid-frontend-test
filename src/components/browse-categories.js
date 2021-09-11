@@ -184,9 +184,6 @@ export default function BrowseCategories() {
           display={{ base: "none", lg: "flex" }}
         >
           <Button
-            h="45px"
-            pl="10px"
-            pr="14px"
             colorScheme="primary"
             onClick={handleSlidePrev}
             leftIcon={(
@@ -197,6 +194,7 @@ export default function BrowseCategories() {
                 alignItems="center"
                 justifyContent="center"
                 rounded="full"
+                ml="-10px"
               >
                 <ResponsiveImage
                   src="/chevron-left.png"
@@ -209,9 +207,6 @@ export default function BrowseCategories() {
             PREV
           </Button>
           <Button
-            h="45px"
-            pl="14px"
-            pr="10px"
             colorScheme="primary"
             onClick={handleSlideNext}
             rightIcon={(
@@ -224,6 +219,7 @@ export default function BrowseCategories() {
                 rounded="full"
                 transform="rotate(180deg)"
                 pr="3px"
+                mr="-10px"
               >
                 <ResponsiveImage
                   src="/chevron-left.png"

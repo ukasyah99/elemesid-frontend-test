@@ -65,7 +65,7 @@ function HorizontalReceiptCard() {
           Tomato
         </Text>
         <Box h="7px" />
-        <Rating />
+        <Rating total={4} />
       </Box>
     </HStack>
   )
