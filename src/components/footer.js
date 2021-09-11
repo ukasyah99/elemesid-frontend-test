@@ -79,11 +79,11 @@ export default function Footer() {
               </Text>
               <Box h="5" />
               <Stack alignItems="flex-start" spacing="2.5">
-                <Link href="#">Cupcake</Link>
-                <Link href="#">Pizza</Link>
-                <Link href="#">Kebab</Link>
-                <Link href="#">Salmon</Link>
-                <Link href="#">Doughnut</Link>
+                <Link href="#" fontWeight="normal">Cupcake</Link>
+                <Link href="#" fontWeight="normal">Pizza</Link>
+                <Link href="#" fontWeight="normal">Kebab</Link>
+                <Link href="#" fontWeight="normal">Salmon</Link>
+                <Link href="#" fontWeight="normal">Doughnut</Link>
               </Stack>
             </Box>
             <Box w={{ base: "30%", lg: "15%" }}>
@@ -92,9 +92,9 @@ export default function Footer() {
               </Text>
               <Box h="5" />
               <Stack alignItems="flex-start" spacing="2.5">
-                <Link href="#">About Us</Link>
-                <Link href="#">FAQ</Link>
-                <Link href="#">Report Problem</Link>
+                <Link href="#" fontWeight="normal">About Us</Link>
+                <Link href="#" fontWeight="normal">FAQ</Link>
+                <Link href="#" fontWeight="normal">Report Problem</Link>
               </Stack>
             </Box>
             <Box w={{ base: "auto" }} flex="1">
@@ -142,7 +142,7 @@ export default function Footer() {
         </Container>
       </Box>
       <Box display={{ base: "none", md: "block" }} py="8">
-        <Text color="" fontSize="xs" fontWeight="medium" textAlign="center">
+        <Text color="" fontSize="xs" fontWeight="normal" textAlign="center">
           &copy; 2021 ELEMES ID. ALL RIGHTS RESERVED
         </Text>
       </Box>

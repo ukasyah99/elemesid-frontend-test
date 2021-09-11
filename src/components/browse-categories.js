@@ -48,7 +48,6 @@ function CategoryCard({ image, bg, label, description }) {
           rounded="lg"
           inset="0"
           bg={bg}
-          bgSize="contain"
           zIndex="-2"
         />
         <Box
@@ -56,12 +55,12 @@ function CategoryCard({ image, bg, label, description }) {
           rounded="lg"
           inset="0"
           bgImage="url('/background.png')"
-          bgSize="contain"
+          bgSize="cover"
           opacity="0"
           zIndex="-1"
           transition="opacity .2s ease"
           _groupHover={{
-            opacity: "0.1",
+            opacity: "0.08",
           }}
         />
       </Stack>

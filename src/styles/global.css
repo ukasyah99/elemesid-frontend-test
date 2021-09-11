@@ -1,4 +1,5 @@
 /* [START] Fix next/image responsive issue */
+
 .responsive-image {
   width: 100%;
   position: relative;
@@ -14,9 +15,11 @@
   position: relative !important;
   height: unset !important;
 }
+
 /* [END] Fix next/image responsive issue */
 
 /* [START] Browse category slides */
+
 .swiper {
   width: 100%;
 }
@@ -38,12 +41,6 @@
 @media(min-width: 768px) {
   .swiper-slide:first-child, .swiper-slide:last-child {
     width: 28px;
-  }
-}
-
-@media(min-width: 960px) {
-  .swiper-slide:first-child, .swiper-slide:last-child {
-    width: 68px;
   }
 }
 
