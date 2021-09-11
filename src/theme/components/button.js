@@ -12,9 +12,10 @@ const Button = {
   },
   sizes: {
     md: {
-      fontSize: "14px",
-      px: "18px",
-      py: "10px",
+      height: "auto",
+      fontSize: { base: "13px", md: "14px" },
+      px: { base: "15px", md: "18px" },
+      py: { base: "11px", md: "10px" },
     }
   },
 }

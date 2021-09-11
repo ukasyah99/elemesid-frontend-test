@@ -3,9 +3,9 @@ import { Box } from "@chakra-ui/react"
 export default function Container({ children }) {
   return (
     <Box
-      px={{ base: "10", xl: "20" }}
+      px={{ base: "20px", sm: "28px", md: "40px", xl: "80px" }}
       w="full"
-      maxW="7xl"
+      maxW="1280px"
       mx="auto"
     >
       {children}

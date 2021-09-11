@@ -148,7 +148,7 @@ export default function BrowseCategories() {
       <Container>
         <Text
           color="dark.500"
-          fontSize="3xl"
+          fontSize={{ base: "2xl", lg: "3xl" }}
           fontWeight="medium"
           lineHeight="short"
         >
@@ -156,7 +156,7 @@ export default function BrowseCategories() {
         </Text>
         <Text
           color="primary.500"
-          fontSize="3xl"
+          fontSize={{ base: "2xl", lg: "3xl" }}
           fontWeight="medium"
           lineHeight="short"
         >

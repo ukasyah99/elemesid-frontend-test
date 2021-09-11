@@ -8,26 +8,24 @@ function CircleImage() {
     <Box
       display="flex"
       position="relative"
-      w={{ base: "50%", lg: "full" }}
+      w="full"
     >
       <Box mr="auto" display={{ base: "none", lg: "block" }} />
       <ResponsiveImage
         src="/hero-circle-background.png"
-        width={{ base: "260px", lg: "440px" }}
-        height={{ base: "260px", lg: "440px" }}
+        width={{ base: "200px", md: "260px", lg: "440px" }}
+        height={{ base: "200px", md: "260px", lg: "440px" }}
       />
       <Box
         position="absolute"
-        top={{ base: "25px", lg: "40px" }}
-        left={{ base: "25px", lg: "auto" }}
-        right={{ base: "auto", lg: "40px" }}
-        width={{ base: "210px", lg: "360px" }}
-        height={{ base: "210px", lg: "360px" }}
+        top={{ base: "20px", md: "25px", lg: "40px" }}
+        left={{ base: "20px", md: "25px", lg: "auto" }}
+        right={{ base: "auto", md: "auto", lg: "40px" }}
       >
         <ResponsiveImage
           src="/hero-circle.png"
-          width="100%"
-          height="100%"
+          width={{ base: "160px", md: "210px", lg: "360px" }}
+          height={{ base: "160px", md: "210px", lg: "360px" }}
         />
       </Box>
     </Box>
@@ -37,13 +35,13 @@ function CircleImage() {
 function HorizontalReceiptCard() {
   return (
     <HStack
-      px="23px"
-      py="16px"
+      px={{ base: "15px", lg: "23px" }}
+      py={{ base: "11px", lg: "16px" }}
       boxShadow="0px 11px 39px 0px #00000012"
       bg="rgba(255, 255, 255, 0.74)"
       rounded="17px"
-      spacing="19px"
-      w="292px"
+      spacing={{ base: "14px", lg: "19px" }}
+      w={{ base: "250px", lg: "292px" }}
     >
       <ResponsiveImage
         src="/hero-circle.png"
@@ -85,13 +83,13 @@ export default function Hero() {
           display="flex"
           flexDirection="column"
           justifyContent="center"
-          py={{ base: "32px", lg: "0" }}
+          py={{ base: "25px", lg: "0" }}
         >
           <Text
             color="primary.500"
-            fontSize={{ base: "48px", lg: "64px" }}
+            fontSize={{ base: "38px", md: "48px", lg: "64px" }}
             fontWeight="medium"
-            lineHeight="64px"
+            lineHeight={{ base: "48px", md: "56px", lg: "64px" }}
           >
             Good Food Us<br />Good Mood
           </Text>
@@ -100,7 +98,8 @@ export default function Hero() {
             <CircleImage />
             <Box
               position="absolute"
-              left="130px"
+              left={{ base: "auto", sm: "80px", md: "140px" }}
+              right={{ base: "0px", sm: "auto", md: "auto" }}
               bottom="5px"
             >
               <HorizontalReceiptCard />
@@ -108,8 +107,8 @@ export default function Hero() {
           </Box>
           <Box h="50px" display={{ base: "block", lg: "none" }} />
           <Text
-            fontSize="18px"
-            w="90%"
+            fontSize={{ base: "16px", md: "18px" }}
+            maxW={{ base: "100%", sm: "87%", md: "75%" }}
           >
             I would think that conserving our natural resources should be a conservative position: Not to waste food, and not to throw away a lot of the food that we buy.
           </Text>

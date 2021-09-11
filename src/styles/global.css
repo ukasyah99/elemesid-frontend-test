@@ -1,3 +1,4 @@
+/* [START] Fix next/image responsive issue */
 .responsive-image {
   width: 100%;
   position: relative;
@@ -13,21 +14,43 @@
   position: relative !important;
   height: unset !important;
 }
+/* [END] Fix next/image responsive issue */
 
+/* [START] Browse category slides */
 .swiper {
   width: 100%;
 }
 
 .swiper-slide:first-child, .swiper-slide:last-child {
-  width: 32px;
+  width: 8px;
 }
 
 .swiper-slide {
   width: 230px;
 }
 
-@media(min-width: 80em) {
+@media(min-width: 420px) {
   .swiper-slide:first-child, .swiper-slide:last-child {
-    width: calc((100% - 71rem) / 2);
+    width: 16px;
   }
 }
+
+@media(min-width: 768px) {
+  .swiper-slide:first-child, .swiper-slide:last-child {
+    width: 28px;
+  }
+}
+
+@media(min-width: 960px) {
+  .swiper-slide:first-child, .swiper-slide:last-child {
+    width: 68px;
+  }
+}
+
+@media(min-width: 1280px) {
+  .swiper-slide:first-child, .swiper-slide:last-child {
+    width: calc((100% - 1140px) / 2);
+  }
+}
+
+/* [END] Browse category slides */
