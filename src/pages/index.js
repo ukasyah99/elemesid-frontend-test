@@ -30,7 +30,7 @@ export default function Home() {
       <BrowseCategories />
       <BrowseTrendings />
       <Footer />
-      <Box h="72" />
+      {/* <Box h="72" /> */}
     </div>
   )
 }

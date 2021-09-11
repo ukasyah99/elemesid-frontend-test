@@ -1,6 +1,6 @@
 const Link = {
   baseStyle: {
-    color: "#757575",
+    color: "dark.400",
     fontSize: "14px",
     fontWeight: "medium",
     _hover: {
