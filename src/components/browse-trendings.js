@@ -78,7 +78,7 @@ const items = [
     bg: "#E4F2F4",
   },
   {
-    image: "/recipes/pexels-daria-shevtsova-1260968.png",
+    image: "/recipes/pexels-nishant-aneja-2955819.png",
     title: "Doner Kebab",
     category: "Kebab",
     rating: 5,
